@@ -5,7 +5,12 @@ class decimal():
     def romano_a_decimal(romano):
         decimal = 0
         Numeros_romanos = ['C', 'L', 'X', 'V', 'I']
-        significado_numeros_romanos = {'C': 100, 'L': 50, 'X': 10, 'V': 5, 'I': 1}
+        # C = 100
+        # L = 50
+        # X = 50
+        # V = 5
+        # I = 1
+        
         lastchar = Numeros_romanos[0]
 
         for char in Numeros_romanos:
